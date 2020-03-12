@@ -10,11 +10,12 @@
   on-the-fly at runtime.
 
 ## UML
-<img src="http://yuml.me/diagram/plain/class/
+<img src="http://yuml.me/diagram/plain/class/[Context|-strategy;operation()]+->[IStrategy|+algorithm()], [IStrategy]^-.-[Strategy1|+algorithm()], [IStrategy]^-.-[Strategy2|+algorithm()]">
+<!--
     [Context|-strategy;operation()]+->[IStrategy|+algorithm()],
     [IStrategy]^-.-[Strategy1|+algorithm()],
     [IStrategy]^-.-[Strategy2|+algorithm()]
-">
+-->
 
 ## Type
 - Behavioral
