@@ -1,0 +1,12 @@
+{
+    "name": "design-pattern",
+    "version": "0.1.0",
+    "description": "Practice and make examples about design patterns.",
+    "type": "module",
+    "scripts": {
+        "start": "node --experimental-modules",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "DivineCross",
+    "license": "ISC"
+}
