@@ -1,0 +1,5 @@
+{
+    "target": "esnext",
+    "module": "es6",
+    "checkJs": true
+}
