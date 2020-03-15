@@ -30,6 +30,7 @@ module.exports = {
         'nonblock-statement-body-position': ['error', 'below'],
         'no-console': 'off',
         'no-plusplus': 'off',
+        'no-unused-vars': ['error', { 'argsIgnorePattern': '^_' }],
         'no-var': 'error',
     },
 };
