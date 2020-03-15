@@ -7,8 +7,8 @@ export class Hero {
     attack() {
         if (!this.#skill)
             return 'Normal Attack';
-        else
-            return this.#skill.cast();
+
+        return this.#skill.cast();
     }
 
     equipSkill(skill) {
