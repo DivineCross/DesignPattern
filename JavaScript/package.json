@@ -5,7 +5,10 @@
     "type": "module",
     "scripts": {
         "start": "node --experimental-modules",
-        "start-ts": "tsc & node --experimental-modules",
+        "rimraf": "./node_modules/rimraf/bin.js",
+        "clean-ts": "rimraf ./.build",
+        "build-ts": "npm run clean-ts && tsc",
+        "start-ts": "npm run build-ts && node --experimental-modules",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "DivineCross",
@@ -14,6 +17,7 @@
         "eslint": "^6.8.0",
         "eslint-config-airbnb-base": "^14.1.0",
         "eslint-config-esnext": "^4.0.0",
-        "eslint-plugin-import": "^2.20.1"
+        "eslint-plugin-import": "^2.20.1",
+        "rimraf": "^3.0.2"
     }
 }
