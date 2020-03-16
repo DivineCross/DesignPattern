@@ -22,6 +22,7 @@ module.exports = {
     rules: {
         'indent': ['error', 4],
         'linebreak-style': ['error', 'unix'],
+        'lines-between-class-members': ['error', 'always'],
         'no-unused-vars': ['error', {
             'varsIgnorePattern': '^I[A-Z]',
         }],
