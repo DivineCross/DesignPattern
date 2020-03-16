@@ -1,6 +1,6 @@
 import { ISkill } from './i-skill.js';
 
-export class FireSkill extends ISkill {
+export class FireSkill implements ISkill {
     cast() {
         return 'Fire Blast';
     }

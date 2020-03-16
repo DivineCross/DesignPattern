@@ -1,8 +1,7 @@
 import { ISkill } from './i-skill.js';
 
 export class Hero {
-    /** @type { ISkill } */
-    #skill
+    #skill: ISkill
 
     attack() {
         if (!this.#skill)
@@ -11,8 +10,8 @@ export class Hero {
         return this.#skill.cast();
     }
 
-    equipSkill(skill) {
-        const s = skill instanceof ISkill && skill.constructor !== ISkill
+    equipSkill(skill?: ISkill) {
+        const s = skill
             ? skill
             : undefined;
 
