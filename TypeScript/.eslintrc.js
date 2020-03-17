@@ -23,6 +23,7 @@ module.exports = {
         'indent': ['error', 4],
         'linebreak-style': ['error', 'unix'],
         'lines-between-class-members': ['error', 'always'],
+        'new-parens': ['error', 'never'],
         'no-multi-spaces': 'error',
         'no-multiple-empty-lines': ['error', {
             'max': 1,
