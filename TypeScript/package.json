@@ -4,11 +4,13 @@
     "description": "Practice and make examples about design patterns.",
     "type": "module",
     "scripts": {
-        "start": "node --experimental-modules",
         "rimraf": "./node_modules/rimraf/bin.js",
-        "clean-ts": "rimraf ./.build",
-        "build-ts": "npm run clean-ts && tsc",
-        "start-ts": "npm run build-ts && node --experimental-modules",
+        "clean": "rimraf ./.build",
+        "build": "tsc --incremental",
+        "rebuild": "npm run clean && npm run build",
+        "node": "node --experimental-modules",
+        "start": "npm run build && npm run node",
+        "start-clean": "npm run rebuild && npm run node",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "DivineCross",
