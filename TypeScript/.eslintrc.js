@@ -30,9 +30,7 @@ module.exports = {
             'maxEOF': 0,
             'maxBOF': 0,
         }],
-        'no-unused-vars': ['error', {
-            'varsIgnorePattern': '^I[A-Z]',
-        }],
+        'no-unused-vars': 'off',
         'no-var': 'error',
         'quotes': ['error', 'single'],
         'semi': ['error', 'always'],
