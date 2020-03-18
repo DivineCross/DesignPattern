@@ -9,11 +9,11 @@
   reduce cost, and reduce complexity.
 
 ## UML
-<img src="http://yuml.me/diagram/plain/class/[ISubject|+operation()],[ISubject]<-.-[Proxy|-realObject],[ISubject]<-.-[RealObject],[Proxy]+->[RealObject]">
+<img src="http://yuml.me/diagram/plain/class/[ISubject|+operation()],[ISubject]^-.-[Proxy|-realObject],[ISubject]^-.-[RealObject],[Proxy]+->[RealObject]">
 <!--
 [ISubject|+operation()],
-[ISubject]<-.-[Proxy|-realObject],
-[ISubject]<-.-[RealObject],
+[ISubject]^-.-[Proxy|-realObject],
+[ISubject]^-.-[RealObject],
 [Proxy]+->[RealObject],
 -->
 

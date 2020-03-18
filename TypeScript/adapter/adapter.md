@@ -9,10 +9,10 @@
   class.
 
 ## UML
-<img src="http://yuml.me/diagram/plain/class/[ITarget|+operation()],[ITarget]<-.-[Adapter|-adaptee],[Adapter]+->[Adaptee|+someOperation()]">
+<img src="http://yuml.me/diagram/plain/class/[ITarget|+operation()],[ITarget]^-.-[Adapter|-adaptee],[Adapter]+->[Adaptee|+someOperation()]">
 <!--
 [ITarget|+operation()],
-[ITarget]<-.-[Adapter|-adaptee],
+[ITarget]^-.-[Adapter|-adaptee],
 [Adapter]+->[Adaptee|+someOperation()],
 -->
 

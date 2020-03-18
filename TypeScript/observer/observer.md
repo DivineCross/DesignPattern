@@ -14,13 +14,13 @@
 ## UML
 <img src="http://yuml.me/diagram/plain/class/[IObersevable|+register(observer);+unregister(observer);+notify()],[IObersevable]+->[IObserver|+update()],[IObersevable]^-.-[Subject|-observers;+getState()],[IObserver]^-.-[Observer2|-subject],[Subject]<-+[Observer2],[IObserver]^-.-[Observer1|-subject],[Subject]<-+[Observer1]">
 <!--
-    [IObersevable|+register(observer);+unregister(observer);+notify()],
-    [IObersevable]+->[IObserver|+update()],
-    [IObersevable]^-.-[Subject|-observers;+getState()],
-    [IObserver]^-.-[Observer2|-subject],
-    [Subject]<-+[Observer2],
-    [IObserver]^-.-[Observer1|-subject],
-    [Subject]<-+[Observer1],
+[IObersevable|+register(observer);+unregister(observer);+notify()],
+[IObersevable]+->[IObserver|+update()],
+[IObersevable]^-.-[Subject|-observers;+getState()],
+[IObserver]^-.-[Observer2|-subject],
+[Subject]<-+[Observer2],
+[IObserver]^-.-[Observer1|-subject],
+[Subject]<-+[Observer1],
 -->
 
 ## Type
