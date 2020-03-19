@@ -4,6 +4,7 @@
         "module": "ES6",
         "rootDir": "./src",
         "outDir": "./.build",
+        "incremental": true,
         "tsBuildInfoFile": "./.build/.tsbuildinfo"
     }
 }

@@ -6,7 +6,7 @@
     "scripts": {
         "rimraf": "./node_modules/rimraf/bin.js",
         "clean": "rimraf ./.build",
-        "build": "tsc --incremental",
+        "build": "tsc",
         "rebuild": "npm run clean && npm run build",
         "node": "node --experimental-modules",
         "start": "npm run build && npm run node",
