@@ -20,6 +20,17 @@ module.exports = {
         '@typescript-eslint',
     ],
     rules: {
+        '@typescript-eslint/semi': ['error'],
+        '@typescript-eslint/member-delimiter-style': ['error', {
+            'multiline': {
+                'delimiter': 'semi',
+                'requireLast': true,
+            },
+            'singleline': {
+                'delimiter': 'semi',
+                'requireLast': true,
+            },
+        }],
         'indent': ['error', 4],
         'linebreak-style': ['error', 'unix'],
         'lines-between-class-members': ['error', 'always'],
@@ -33,6 +44,6 @@ module.exports = {
         'no-unused-vars': 'off',
         'no-var': 'error',
         'quotes': ['error', 'single'],
-        'semi': ['error', 'always'],
+        'semi': 'off',
     }
 };
